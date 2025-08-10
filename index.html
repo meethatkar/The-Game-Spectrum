@@ -1,17 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Game Spectrum</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="output.css">
 </head>
-<body>
-    <ul>
+
+<body class="bg-[#0466c8da] text-white overflow-x-hidden flex flex-col items-center min-h-screen">
+    <!-- <ul>
         <li><a href="https://story-stitchers.netlify.app/" target="_blank"> Story Stitchers </a></li>
         <li><a href="https://bubble-popper-game.netlify.app/" target="_blank"> Bubble Popper </a></li>
-        <!-- <li><a href="Chess/index.html"> Check Mates</a></li> -->
         <li><a href="https://game-2-rock-paper-scissors.netlify.app/" target="_blank"> Rock Paper Scissors </a></li>
         <li><a href="https://game-3-tic-tac-toe.netlify.app/" target="_blank"> Tic Tac Toe </a></li>
-    </ul>
+    </ul> -->
+
+    <h1 class="text-[4vmax] font-semibold leading-none mb-[2vmin]"> The Game Spectrum </h1>
+    <div class="swiper rounded-xl h-[85vh] w-[60vw] border-6 border-blue-900">
+        <div class="swiper-wrapper h-full w-full bg-[#7D8597] rounded-xl">
+            <div class="swiper-slide">
+                <div id="slider-wrapper"
+                    class="flex flex-col items-center py-[5vmin] gap-[2vmin] justify-center w-full h-full">
+                    <img src="./assets/tic-tac-toe.png" alt="" class="w-3/4 mx-auto rounded-xl">
+                    <p class="w-3/4 mx-auto text-center leading-[1.4] text-[1.3vmax]"> A classic two-player <span>Tic-Tac-Toe</span>
+                        game with a clean, minimalist design. The intuitive interface
+                        clearly indicates the current player's turn, making it easy to play against a friend. The game
+                        also includes a reset button to start over. </p>
+                    <button class="w-fit font-semibold px-[2vmin] py-[1vmin] bg-[#0466c8b6] rounded-xl text-[1.5vmax]"> <a
+                            href="https://game-3-tic-tac-toe.netlify.app/" target="_blank"> Try Now !! </a></button>
+                </div>
+            </div>
+            <div class="swiper-slide h-full w-full">
+                <div id="slider-wrapper"
+                    class="flex flex-col items-center py-[5vmin] gap-[2vmin] justify-center w-full h-full">
+                    <img src="./assets/story-stitcher.png" alt="" class="w-3/4 mx-auto rounded-xl">
+                    <p class="w-3/4 mx-auto text-center leading-[1.4] text-[1.3vmax]"> <span>Story Stitchers</span> is an engaging
+                        game where you piece together a hidden story by selecting words from a list of hints. It blends
+                        deduction and imagination, with a focus on fun and quirky narratives. If you get stuck, you can
+                        reveal the original story. </p>
+                    <button class="w-fit font-semibold bg-[#0466c8b6] px-[2vmin] py-[1vmin] rounded-xl text-[1.5vmax]"> <a
+                            href="https://story-stitchers.netlify.app/" target="_blank"> Try Now !! </a></button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div id="slider-wrapper"
+                    class="flex flex-col items-center py-[5vmin] gap-[2vmin] justify-center w-full h-full">
+                    <img src="./assets/bubble-pop.png" alt="" class="w-3/4 mx-auto rounded-xl">
+                    <p class="w-3/4 mx-auto text-center leading-[1.4] text-[1.3vmax]"> A
+                        Pop into action with <span>Bubble Pop</span>! This fast-paced game challenges you to click the matching
+                        number in the bubbles to earn points. Beat the clock and get the highest score possible. Be
+                        quick, be accurate, and have a blast! </p>
+                    <button class="w-fit font-semibold px-[2vmin] py-[1vmin] bg-[#0466c8b6] rounded-xl text-[1.5vmax]"> <a
+                            href="https://bubble-popper-game.netlify.app/" target="_blank"> Try Now !! </a></button>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div id="slider-wrapper"
+                    class="flex flex-col items-center py-[5vmin] gap-[2vmin] justify-center w-full h-full">
+                    <img src="./assets/rock-paper.png" alt="" class="w-3/4 mx-auto rounded-xl">
+                    <p class="w-3/4 mx-auto text-center leading-[1.4] text-[1.3vmax]"> Get ready for the ultimate
+                        showdown in this classic game of <span>Rock, Paper, Scissors</span>! Challenge a friend or play against the
+                        computer. Choose your hand signal and see if you can outsmart your opponent. Will you triumph
+                        with the strength of a rock, the precision of paper, or the sharpness of scissors? It's a game
+                        of chance, strategy, and fun! </p>
+                    <button class="w-fit font-semibold px-[2vmin] py-[1vmin] bg-[#0466c8b6] rounded-xl text-[1.5vmax]"> <a
+                            href="https://game-2-rock-paper-scissors.netlify.app/" target="_blank"> Try Now !!
+                        </a></button>
+                </div>
+            </div>
+            <div class="swiper-slide flex items-center justify-center text-[3vmax] font-semibold">
+                <h1> More Coming soonnn....</h1>
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
