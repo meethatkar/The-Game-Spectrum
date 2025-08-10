@@ -23,15 +23,32 @@ body::-webkit-scrollbar{
     align-items: center;
     justify-content: center;
     /* color: rgba(255, 255, 255, 0.808); */
-    background-color: rgb(95, 170, 255);
+    /* background-color: rgb(95, 170, 255); */
+    background-color: rgb(212, 212, 212);
 }
 
 p{
-    color: rgba(255, 255, 255, 0.774);
+    color: rgba(0, 0, 0, 0.849);
+    /* color: rgba(255, 255, 255, 0.774); */
+    font-weight: 500;
 }
 
 span{
-    color: white;
+    color: black;
+    /* color: white; */
     font-weight: 700;
     text-decoration: underline;
+}
+
+@media (max-width:768px) {
+    .swiper-slide{
+        background-color: rgb(235, 235, 235);
+    }
+    p{
+        color: rgba(0, 0, 0, 0.849);
+    }
+
+    span{
+        color: black;
+    }
 }

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body class="bg-[#0466c8da] text-white overflow-x-hidden flex flex-col items-center min-h-screen">
+<body class="bg-[#EBEBEB] overflow-x-hidden flex flex-col items-center min-h-screen">
     <!-- <ul>
         <li><a href="https://story-stitchers.netlify.app/" target="_blank"> Story Stitchers </a></li>
         <li><a href="https://bubble-popper-game.netlify.app/" target="_blank"> Bubble Popper </a></li>
@@ -17,65 +17,69 @@
         <li><a href="https://game-3-tic-tac-toe.netlify.app/" target="_blank"> Tic Tac Toe </a></li>
     </ul> -->
 
-    <h1 class="text-[4vmax] font-semibold leading-none mb-[2vmin]"> The Game Spectrum </h1>
-    <div class="swiper rounded-xl h-[85vh] w-[60vw] border-6 border-blue-900">
-        <div class="swiper-wrapper h-full w-full bg-[#7D8597] rounded-xl">
+    <h1 class="md:text-[4vmax] text-[5vmax] font-semibold leading-none md:mb-[2vmin] my-[8vmin] md:my-0 text-black"> The Game Spectrum </h1>
+    <div class="swiper rounded-xl  h-[85vh] md:w-[60vw] w-[90vw]  md:border-4 border-gray-400">
+        <div class="swiper-wrapper h-full w-full rounded-xl">
             <div class="swiper-slide">
                 <div id="slider-wrapper"
-                    class="flex flex-col items-center py-[5vmin] gap-[2vmin] justify-center w-full h-full">
-                    <img src="./assets/tic-tac-toe.png" alt="" class="w-3/4 mx-auto rounded-xl">
-                    <p class="w-3/4 mx-auto text-center leading-[1.4] text-[1.3vmax]"> A classic two-player <span>Tic-Tac-Toe</span>
+                    class="flex flex-col items-center py-[5vmin] gap-[5vmin] md:gap-[2vmin] justify-center w-full h-full">
+                    <img src="./assets/tic-tac-toe.png" alt="" class="w-3/4 mx-auto rounded-xl hidden md:block border-2 border-black/70">
+                    <img class="h-[60%] rounded-xl border-2 border-gray-400 flex md:hidden object-cover" src="assets/mob-tic-tac.png" alt="">
+                    <p class="w-3/4 mx-auto text-center leading-[1.4] text-[2.2vmax] md:text-[1.3vmax]"> A classic two-player <span>Tic-Tac-Toe</span>
                         game with a clean, minimalist design. The intuitive interface
                         clearly indicates the current player's turn, making it easy to play against a friend. The game
                         also includes a reset button to start over. </p>
-                    <button class="w-fit font-semibold px-[2vmin] py-[1vmin] bg-[#0466c8b6] rounded-xl text-[1.5vmax]"> <a
+                    <button class="w-fit font-semibold px-[2vmin] py-[1vmin]  hover:bg-black/80 hover:cursor-pointer transition-all ease-linear bg-black text-white rounded-xl text-[2vmax] md:text-[1.5vmax]"> <a
                             href="https://game-3-tic-tac-toe.netlify.app/" target="_blank"> Try Now !! </a></button>
                 </div>
             </div>
             <div class="swiper-slide h-full w-full">
                 <div id="slider-wrapper"
-                    class="flex flex-col items-center py-[5vmin] gap-[2vmin] justify-center w-full h-full">
-                    <img src="./assets/story-stitcher.png" alt="" class="w-3/4 mx-auto rounded-xl">
-                    <p class="w-3/4 mx-auto text-center leading-[1.4] text-[1.3vmax]"> <span>Story Stitchers</span> is an engaging
+                    class="flex flex-col items-center py-[5vmin] gap-[5vmin] md:gap-[2vmin] justify-center w-full h-full">
+                    <img src="./assets/story-stitcher.png" alt="" class="w-3/4 mx-auto rounded-xl hidden md:block border-2 border-black/70">
+                    <img class="h-[60%] rounded-xl border-2 border-gray-400 flex md:hidden object-cover" src="assets/mob-story.png" alt="">
+                    <p class="w-3/4 mx-auto text-center leading-[1.4] text-[2.2vmax] md:text-[1.3vmax]"> <span>Story Stitchers</span> is an engaging
                         game where you piece together a hidden story by selecting words from a list of hints. It blends
                         deduction and imagination, with a focus on fun and quirky narratives. If you get stuck, you can
                         reveal the original story. </p>
-                    <button class="w-fit font-semibold bg-[#0466c8b6] px-[2vmin] py-[1vmin] rounded-xl text-[1.5vmax]"> <a
+                    <button class="w-fit font-semibold bg-black text-white hover:bg-black/80 hover:cursor-pointer transition-all ease-linear  px-[2vmin] py-[1vmin] rounded-xl text-[2vmax] md:text-[1.5vmax]"> <a
                             href="https://story-stitchers.netlify.app/" target="_blank"> Try Now !! </a></button>
                 </div>
             </div>
             <div class="swiper-slide">
                 <div id="slider-wrapper"
-                    class="flex flex-col items-center py-[5vmin] gap-[2vmin] justify-center w-full h-full">
-                    <img src="./assets/bubble-pop.png" alt="" class="w-3/4 mx-auto rounded-xl">
-                    <p class="w-3/4 mx-auto text-center leading-[1.4] text-[1.3vmax]"> A
+                    class="flex flex-col items-center py-[5vmin] gap-[5vmin] md:gap-[2vmin] justify-center w-full h-full">
+                    <img src="./assets/bubble-pop.png" alt="" class="w-3/4 mx-auto rounded-xl hidden md:block border-2 border-black/70">
+                    <img class="h-[60%] rounded-xl border-2 border-gray-400 flex md:hidden object-cover" src="assets/mob-bubble.png" alt="">
+                    <p class="w-3/4 mx-auto text-center leading-[1.4] text-[2.2vmax] md:text-[1.3vmax]"> A
                         Pop into action with <span>Bubble Pop</span>! This fast-paced game challenges you to click the matching
                         number in the bubbles to earn points. Beat the clock and get the highest score possible. Be
                         quick, be accurate, and have a blast! </p>
-                    <button class="w-fit font-semibold px-[2vmin] py-[1vmin] bg-[#0466c8b6] rounded-xl text-[1.5vmax]"> <a
+                    <button class="w-fit font-semibold px-[2vmin] py-[1vmin]  hover:bg-black/80 hover:cursor-pointer transition-all ease-linear bg-black text-white rounded-xl text-[2vmax] md:text-[1.5vmax]"> <a
                             href="https://bubble-popper-game.netlify.app/" target="_blank"> Try Now !! </a></button>
                 </div>
             </div>
             <div class="swiper-slide">
                 <div id="slider-wrapper"
-                    class="flex flex-col items-center py-[5vmin] gap-[2vmin] justify-center w-full h-full">
-                    <img src="./assets/rock-paper.png" alt="" class="w-3/4 mx-auto rounded-xl">
-                    <p class="w-3/4 mx-auto text-center leading-[1.4] text-[1.3vmax]"> Get ready for the ultimate
+                    class="flex flex-col items-center py-[5vmin] gap-[5vmin] md:gap-[2vmin] justify-center w-full h-full">
+                    <img src="./assets/rock-paper.png" alt="" class="w-3/4 mx-auto rounded-xl hidden md:block border-2 border-black/70">
+                    <img class="h-[60%] rounded-xl border-2 border-gray-400 flex md:hidden object-cover" src="assets/mob-rock.png" alt="">
+                    <p class="w-3/4 mx-auto text-center leading-[1.4] text-[2.2vmax] md:text-[1.3vmax]"> Get ready for the ultimate
                         showdown in this classic game of <span>Rock, Paper, Scissors</span>! Challenge a friend or play against the
                         computer. Choose your hand signal and see if you can outsmart your opponent. Will you triumph
                         with the strength of a rock, the precision of paper, or the sharpness of scissors? It's a game
                         of chance, strategy, and fun! </p>
-                    <button class="w-fit font-semibold px-[2vmin] py-[1vmin] bg-[#0466c8b6] rounded-xl text-[1.5vmax]"> <a
+                    <button class="w-fit font-semibold px-[2vmin] py-[1vmin] bg-black hover:bg-black/80 hover:cursor-pointer transition-all ease-linear  text-white rounded-xl text-[2vmax] md:text-[1.5vmax]"> <a
                             href="https://game-2-rock-paper-scissors.netlify.app/" target="_blank"> Try Now !!
                         </a></button>
                 </div>
             </div>
-            <div class="swiper-slide flex items-center justify-center text-[3vmax] font-semibold">
+            <div class="swiper-slide flex items-center justify-center text-[3vmax] font-semibold text-black">
                 <h1> More Coming soonnn....</h1>
             </div>
         </div>
 
-        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination hidden md:block"></div>
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
     </div>
